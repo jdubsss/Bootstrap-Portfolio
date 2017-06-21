@@ -35,20 +35,24 @@ body,
 	/*background-image: url(assets/images,glasselectapp.jpg);
 	width: 100%;*/
 	height: calc(100vh - 50px);
-  background: url("../images/realestate.png");
+
+  background: url("../images/realestate2.png");
       /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+/*        height: 100%;*/ 
+color: #fff;
 }
 
+
 .img-hero {
-  	background: url(assets/images/realestate.png);
+/*  	background: url(assets/images/realestate2.png);
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-/*	background-position: center center;
+    background-size: cover;*/
+    /*	background-position: center center;
 	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,9 +62,16 @@ body,
 
 
 .hero-content {
-	float: left;
-	overflow: auto;
+    /* background-position: center; */
+    /* margin: 20% 33%; */
+    /* object-position: center; */
+    position: absolute;
+    /* width: 100%; */
+    /* float: right; */
+    top: 30%;
+    left: 33%;
 }
+
 
 
 .container-fluid {
@@ -92,6 +103,8 @@ body,
 .form-message {
 	height: 300px;
 }
+
+
 
 .img-portfolio {
 padding-right: 30px;
@@ -175,10 +188,25 @@ footer {
    
 }
 
+
+.footer-homepage {
+border:none;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #535d64;
+/*    opacity: .5;*/
+    text-align: center;
+  }
+
 .text-muted {
   padding-left: 30px;
   padding-top: 5px;
   float: left;
+  font-weight: 100;
 
 }
 
@@ -188,6 +216,15 @@ footer {
      float: right; 
     margin: 3px 5px;
     vertical-align: center;
+}
+
+.img-logo:hover {
+  opacity: .5;
+}
+
+.logo:hover {
+
+  opacity: .8;
 }
 
 .img-about {
@@ -203,6 +240,24 @@ footer {
 
 .social-media-icon {
 margin-right: 30px;
+}
+
+.form-control:focus {
+  border-color: #c8c8c8;
+/*  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+*/
+/*box-shadow: 0px 0px 8px #636363;*/
+box-shadow: 0px 0px 48px -8px rgba(179,179,179,0.75);
+
+}
+
+
+.txt-hero {
+/*  position: absolute;
+  left: 33.3%;*/
+  color: #fff;
+  font-weight: 100;
+  margin: 10px auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -222,6 +277,7 @@ margin-right: 30px;
     margin: 0px auto;
     display: block;
 }
+
 
 
 .container-contact{
