@@ -122,9 +122,14 @@ margin: 30px;
 max-width: 400px;
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #4588b1;
+    }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #28353D;
 }
 
 .img-portfolio:hover {
