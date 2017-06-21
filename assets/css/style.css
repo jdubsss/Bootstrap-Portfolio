@@ -84,6 +84,11 @@ body,
 	align-content: center;*/
 }
 
+.container-contact{
+    width: 500px;
+    margin: 100px auto 0px;
+}
+
 .form-message {
 	height: 300px;
 }
@@ -206,6 +211,7 @@ margin-right: 30px;
     float: left;
     padding-right: 30px;
 }
+}
 
 @media only screen and (max-width: 640px) {
   .img-about {
@@ -215,6 +221,15 @@ margin-right: 30px;
     /* background-position: center; */
     margin: 0px auto;
     display: block;
+}
+
+
+.container-contact{
+    width: 100%;
+    margin: 100px auto;
+    padding: 0px 50px;
+}
+
 }
 
 
