@@ -1,5 +1,4 @@
-Assignment Two Instructions (Bootstrap)
-
+Instructions for Assignemnt Two. U of U Web Dev Bootcamp
 
 Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
 Using Bootstrap, recreate your portfolio site with the following items:
